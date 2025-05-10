@@ -1,0 +1,190 @@
+:root {
+    --color1: #FFFFFF;
+    --color2: #DDC4B1;
+    --color3: #BD8D69;
+    --color4: #814B22;
+    --color5: #251509;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color5);
+    background-color: var(--color1); 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--color5);
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif; 
+    color: var(--color3);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Georgia', serif; 
+    color: var(--color4);
+    margin-bottom: 20px;
+}
+
+.sectionHeader {
+    color: var(--color3);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.employerName {
+    color: var(--color4);
+}
+
+.positionTitle {
+    font-weight: bold;
+    color: var(--color4);
+    font-style: italic;
+    margin: 0px 0px 3px 0px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--color4);
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: var(--color2); 
+}
+
+#skillslist {
+    columns: 3;
+    column-gap: 20px; 
+}
+
+#footer {
+    background-color: var(--color2); 
+    padding: 20px;
+    color: var(--color5);
+    text-align: center;
+}
+
+article h3 {
+    font-family: 'Courier New', Courier, monospace; 
+    color: var(--color5);
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+strong {
+    font-weight: bold;
+    color: var(--color3);
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+em {
+    font-style: italic;
+    color: var(--color2);
+}
+
+ul {
+    margin-left: 20px; 
+    padding: 10px;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 5px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid var(--color4);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    color: var(--color3);
+    font-style: italic;
+}
+
+a:hover {
+    color: var(--color2); 
+}
+
+#overview {
+    padding: 20px;
+    background-color: var(--color2);
+    color: var(--color5);
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5px;
+}
+
+#skills p {
+    white-space: pre-line;
+    font-family: 'Georgia', serif;
+    color: var(--color4);
+}
+
+#contactInfo {
+    padding: 20px;
+    background-color: var(--color2);
+    color: var(--color5);
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--color2);
+    padding: 10px;
+    text-align: center;
+    color: var(--color5);
+}
+
+a em, a span {
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+a em:hover, a span:hover {
+    color: var(--color3);
+}
+
+#goalsList {
+    margin-left: 40px;
+    list-style-type: disc;
+}
+
+.goal-section {
+    margin-bottom: 30px;
+}
+
+.goal-section h2 {
+    border-bottom: 2px solid var(--color3);
+    padding-bottom: 5px;
+}
