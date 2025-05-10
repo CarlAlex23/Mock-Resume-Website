@@ -1,10 +1,13 @@
 # Mock-Resume-Website
 Simple Resume Website
 
+
 🔹 Description
+
 This is a basic resume website made with HTML, CSS, and a little bit of JavaScript. It's great for showing off your skills, experience, and contact info in a clean and professional way.
 
 🔹 Features
+
 A personal resume/portfolio website you can use to share your background, education, and goals. It's easy to customize and looks good on both desktop and mobile.
 
 
